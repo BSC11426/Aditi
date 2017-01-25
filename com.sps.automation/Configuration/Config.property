@@ -1,0 +1,93 @@
+
+<!--***********************DRIVER PATH********************************   -->
+	CHROMEDRIVER=D:\\Selenium+Jars+Drivers\\Drivers\\chromedriver.exe
+	MOZILLADRIVER=D:\\Selenium+Jars+Drivers\\Drivers\\geckodriver.exe
+<!--*********************************************************************** -->
+
+
+<!--************************URL******************************************** -->
+
+	
+
+<!--*********************************************************************** -->
+
+
+<!-- ************************LOGIN PAGE PATHS************************************* -->
+
+	USERNAME_XPATH=html/body/section/div/div/div/form/input[1]
+	PASSWORD_XPATH=html/body/section/div/div/div/form/input[2]
+	SIGNIN_XPATH=html/body/section/div/div/div/form/button
+<!--*********************************************************************** -->
+
+
+<!-- ************************LOGIN PAGE VALUES************************************* -->
+
+	
+<!--*********************************************************************** -->
+
+
+<!-- ************************SPS COMMERCE DASHBOARD PATHS************************************* -->
+
+	TRANSACTION_TRACKER_XPATH=html/body/section/section/div/section/div/div/div[1]/div[1]/div[3]/div/ul/li[1]/a
+
+<!--*********************************************************************** -->
+
+
+<!-- ************************DC 4 PRE-PROD LOGIN PAGE PATHS************************************* -->
+
+	
+	PREPROD_LOGIN_USERNAME_XPATH=html/body/center/table/tbody/tr[1]/td/input
+	PREPROD_LOGIN_PASSWORD_XPATH=html/body/center/table/tbody/tr[2]/td/input
+	PREPROD_LOGIN_LOGINBUTTON_XPATH=html/body/center/table/tbody/tr[3]/td/font/input[1]
+	
+	
+<!--********************************************************************************************* -->	
+	
+<!-- ************************DC 4 PRE-PROD LOGIN PAGE VALUES************************************* -->
+
+	
+	
+	
+<!--********************************************************************************************* -->	
+
+<!-- ************************DC 4 PRE-PROD HOME PAGE PATHS************************************* -->
+
+	PREPROD_HOMEPAGE_DC4LINK_XPATH=html/body/form/span[1]/table/tbody/tr[2]/td[1]/table/tbody/tr/td[2]/a
+	
+<!--********************************************************************************************* -->	
+	
+<!-- ************************DC 4 Tab Paths************************************* -->
+
+	PREPROD_DC4_COMPANY_NAME_XPATH=html/body/form/span[1]/div[1]/div[3]/span/div/div[1]/table/tbody/tr/td/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td[3]/input
+	PREPROD_DC4_BROWSE_CUSTOMERS_TABLE_XPATH=html/body/form/span[1]/div[1]/div[3]/span/div/div[2]/table/tbody/tr[2]/td/table/tbody/tr
+	PREPROD_DC4_BROWSE_CUSTOMERS_SEARCH_BUTTON_XPATH=html/body/form/span[1]/div[1]/div[3]/span/div/div[1]/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td[3]/div/table/tbody/tr/td/button
+
+
+<!--********************************************************************************************* -->	
+
+
+<!-- ************************Profiles Page************************************* -->
+
+	PREPROD_PROFILE_LIST_OF_PROFILES_XPATH=html/body/form/span[1]/div[1]/div[3]/div[1]/table[2]/tbody/tr
+	
+<!-- ************************Capabilities Page************************************* -->
+	
+	
+	PREPROD_CAPABILITIES_CAPABILITY_UID_XPATH=html/body/form/span[1]/div[1]/div[3]/div[1]/table/tbody/tr/td/table/tbody/tr[1]/td[2]/table/tbody/tr[1]/td[3]/input
+	PREPROD_CAPABILITIES_SEARCH_BUTTON_XPATH=html/body/form/span[1]/div[1]/div[3]/div[1]/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td[3]/div/table/tbody/tr/td/button
+	PREPROD_CAPABILITIES_EDIT_FILEBROKER_SETTINGS_XPATH=html/body/form/span[1]/div[1]/div[3]/div[5]/table[2]/tbody/tr[2]/td[9]/a[2]
+<!--********************************************************************************************* -->	
+	
+	
+<!--********************************************************************************************* -->	
+	
+
+<!-- ************************Sub Menu Paths in SPS Commerce************************************* -->
+	
+	PREPROD_PROFILES_XPATH=html/body/form/span[1]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/table/tbody/tr/td[5]/a
+	PREPROD_CAPABILITIES_XPATH=html/body/form/span[1]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/table/tbody/tr/td[7]/a
+	
+<!-- ************************Edit File Broker Settings Paths************************************* -->
+
+	PREPROD_EDITFILEBROKERSETTINGS_DIRECTORY_XPATH=html/body/form/div[1]/div[3]/table[2]/tbody/tr/td[1]/div/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/input
+	PREPROD_EDITFILEBROKERSETTINGS_FILESPECIFICATIONS_XPATH=html/body/form/div[1]/div[3]/table[2]/tbody/tr/td[1]/div/div/table/tbody/tr/td/table/tbody/tr[3]/td[2]/input
